@@ -1,0 +1,36 @@
+[
+    {
+        "label": "Screen",
+        "importPath": "turtle",
+        "description": "turtle",
+        "isExtraImport": true,
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "Turtle",
+        "importPath": "turtle",
+        "description": "turtle",
+        "isExtraImport": true,
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "Drawing",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class Drawing:\n    turt:Turtle = Turtle()\n    screen = Screen()\n    def left_right(self, isLeft:bool):\n        heading = self.turt.heading() + 20 if isLeft else self.turt.heading() - 20\n        self.turt.setheading(heading)\n        self.turt.forward(20)\n    def forward_backward(self, isFor:bool):\n        self.turt.forward(10) if isFor else self.turt.backward(10)\n    def clearScreen(self):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "game = Drawing()\ngame.run()",
+        "detail": "app",
+        "documentation": {}
+    }
+]
