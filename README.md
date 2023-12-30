@@ -14,4 +14,4 @@ I'm apply fully oop concept to creating this drawing application
 
 #### Application Screenshot
 
-![Main Screem](./screenshot/screen.png)
+![Main Screem](./turtle/screenshot/screen.png)
